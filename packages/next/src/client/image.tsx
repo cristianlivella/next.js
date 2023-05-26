@@ -403,7 +403,6 @@ const ImageElement = forwardRef<HTMLImageElement | null, ImageElementProps>(
           loading={loading}
           width={widthInt}
           height={heightInt}
-          decoding="async"
           data-nimg={fill ? 'fill' : '1'}
           className={className}
           style={{ ...imgStyle, ...blurStyle }}
